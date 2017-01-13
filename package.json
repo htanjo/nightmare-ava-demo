@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "scripts": {},
+  "devDependencies": {
+    "nightmare": "^2.9.1"
+  }
+}
