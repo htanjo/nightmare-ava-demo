@@ -6,6 +6,7 @@
 ## Setup
 ```
 $ npm install
+```
 
 ## Test
 ```
