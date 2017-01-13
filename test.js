@@ -9,6 +9,7 @@ test('test duckduckgo search results', async t => {
     .type('#search_form_input_homepage', 'github nightmare')
     .click('#search_button_homepage')
     .wait('#zero_click_wrapper .c-info__title a')
-    .evaluate(() => document.querySelector('#zero_click_wrapper .c-info__title a').href);
+    .evaluate(() => document.querySelector('#zero_click_wrapper .c-info__title a').href)
+    .end();
   t.is(link, 'https://github.com/segmentio/nightmare');
 });

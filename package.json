@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "test": "ava test.js --verbose"
+    "test": "ava test.js --verbose --timeout=30s"
   },
   "devDependencies": {
     "ava": "^0.17.0",
